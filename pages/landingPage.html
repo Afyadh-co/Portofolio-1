@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio AfyadhCo</title>
+    <link rel="stylesheet" href="/dist/styles.css" />
+    <link rel="stylesheet" href="/hamburgers.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-sans antialiased">
+    <!-- Header -->
+    <header
+      class="w-full shadow-md h-[80px] sticky top-0 z-20 bg-[#191919] py-6 px-8"
+    >
+      <nav
+        class="flex md:max-w-6xl mx-auto h-full items-center justify-between"
+      >
+        <a href="" class="text-3xl lg:text-4xl font-semibold text-[#e3651d]"
+          >AFYADH.CO</a
+        >
+        <div class="flex items-center">
+          <ul
+            class="absolute lg:flex top-[80px] grid py-6 md:py-0 -left-full w-full md:w-fit h-fit md:h-full lg:static gap-2 md:gap-10 font-semibold text-xl text-center items-center bg-white/5 backdrop-blur-sm md:bg-[#191919] text-gray-300 justify-center"
+          >
+            <li>
+              <a
+                href="/pages/landingPage.html"
+                class="text-black lg:text-[#e3651d] underline-offset-8 font-bold"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a href="/pages/services.html" class="hover:text-[#e3651d]">Services</a>
+            </li>
+            <li>
+              <a href="/pages/skill.html" class="hover:text-[#e3651d]">Skill</a>
+            </li>
+            <li>
+              <a href="/pages/about.html" class="hover:text-[#e3651d]">About</a>
+            </li>
+            <li class="block lg:hidden">
+              <a
+                href="https://wa.me/6285831040910"
+                class="text-sm font-semibold bg-[#e3651d] text-white px-4 py-2 rounded-xl hover:bg-[#B45B08] justify-end inline-block"
+                target="_blank"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="container flex items-center w-fit space-x-2">
+          <a
+            href="https://wa.me/6285831040910"
+            class="text-sm font-semibold hidden lg:inline-block bg-[#e3651d] text-white px-4 py-2 rounded-xl hover:bg-[#B45B08] justify-end"
+            target="_blank"
+            >Contact Me</a
+          >
+          <button
+            id="menu-button"
+            class="hamburger--emphatic inline-block lg:hidden cursor-pointer"
+            type="button"
+          >
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="py-7 lg:py-20 mx-auto mb-8">
+        <div class="container max-w-6xl mx-auto items-center justify-between mb-20">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center px-8 lg:px-0"
+          >
+            <!-- Bagian Kiri (gambar) -->
+            <div>
+              <img
+                src="/images/poto1.png"
+                alt=""
+                class="rounded-xl drop-shadow-xl/50 object-cover w-full h-full transform hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            <!-- Bagian Kanan (teks) -->
+            <div class="flex flex-col items-center lg:items-start">
+              <h1
+                class="text-[35px] lg:text-5xl font-semibold text-[#e3651d] mb-4 leading-[1.2] text-center lg:text-left"
+              >
+                Hallo..!<br />
+                Saya Khodhir, seorang web developer.
+              </h1>
+              <p class="text-gray-400 text-xl mb-8 text-justify">
+                Saya santri aktif di Pondok IT Jogja yang fokus membangun
+                website rapi, cepat, dan mudah diakses. Saya spesialis di web
+                sekolah, portofolio, blog, company profile, serta landing
+                page/website iklan.
+              </p>
+              <a
+                href=""
+                class="bg-[#e3651d] text-white font-bold py-3 px-6 rounded-md hover:bg-[#B45B08] w-fit"
+                >Lihat profil Saya</a
+              >
+            </div>
+          </div>
+        </div>
+        <a
+          href="/pages/services.html"
+          class="absolute right-0 mx-8 border border-amber-600 rounded-lg py-2 px-4 text-amber-700"
+          >View Next <i class="fa-solid fa-square-caret-right"></i
+        ></a>
+      </section>
+    </main>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

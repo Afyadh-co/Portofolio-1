@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Services</title>
+    <link rel="stylesheet" href="/dist/styles.css" />
+    <link rel="stylesheet" href="/hamburgers.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="font-sans antialiased">
+    <!-- Header -->
+    <header
+      class="w-full shadow-md h-[80px] sticky top-0 z-20 bg-[#191919] py-6 px-8"
+    >
+      <nav
+        class="flex md:max-w-6xl mx-auto h-full items-center justify-between"
+      >
+        <a href="" class="text-3xl lg:text-4xl font-semibold text-[#e3651d]"
+          >AFYADH.CO</a
+        >
+        <div class="flex items-center">
+          <ul
+            class="absolute lg:flex top-[80px] grid py-6 md:py-0 -left-full w-full md:w-fit h-fit md:h-full lg:static gap-2 md:gap-10 font-semibold text-xl text-center items-center bg-white/5 backdrop-blur-sm md:bg-[#191919] text-gray-300 justify-center"
+          >
+            <li>
+              <a href="/pages/landingPage.html" class="hover:text-[#e3651d]">Home</a>
+            </li>
+            <li>
+              <a
+                href="/pages/about"
+                class="text-black lg:text-[#e3651d] underline-offset-8 font-bold"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="/pages/skill.html" class="hover:text-[#e3651d]">Skill</a>
+            </li>
+           <li>
+              <a href="/pages/about.html" class="hover:text-[#e3651d]">About</a>
+            </li>
+            <li class="block lg:hidden">
+              <a
+                href="https://wa.me/6285831040910"
+                class="text-sm font-semibold bg-[#e3651d] text-white px-4 py-2 rounded-xl hover:bg-[#B45B08] justify-end inline-block"
+                target="_blank"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="container flex items-center w-fit space-x-2">
+          <a
+            href="https://wa.me/6285831040910"
+            class="text-sm font-semibold hidden lg:inline-block bg-[#e3651d] text-white px-4 py-2 rounded-xl hover:bg-[#B45B08] justify-end"
+            target="_blank"
+            >Contact Me</a
+          >
+          <button
+            id="menu-button"
+            class="hamburger--emphatic inline-block lg:hidden cursor-pointer"
+            type="button"
+          >
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <section class="py-7 lg:py-20 mx-auto h-full mb-8">
+      <div class="container max-w-6xl mx-auto h-full">
+        <div class="flex flex-col items-center px-8">
+          <h1
+            class="text-center font-bold text-4xl lg:text-5xl pt-6 pb-15 lg:pb-20 text-white"
+          >
+            My Services
+          </h1>
+          <!-- Service Web Development -->
+          <div
+            class="web-dev-service flex flex-col items-center mb-20 w-[85%] lg:w-[60%] text-white text-center gap-y-3"
+          >
+            <i
+              class="fa-solid fa-laptop text-6xl lg:text-8xl pb-2 text-[#e3651d]"
+            ></i>
+            <h3 class="font-semibold text-3xl">Web Develpment</h3>
+            <p class="text-sm">
+              Apakah Anda membutuhkan website yang cepat, aman, dan mudah
+              dikelola? Kami menawarkan layanan pembuatan website statis yang
+              ideal untuk sekolah, personal portfolio, atau company profile.
+            </p>
+          </div>
+          <!-- Service Web Design Web -->
+          <div
+            class="web-dev-service flex flex-col items-center mb-20 w-[85%] lg:w-[60%] text-white text-center gap-y-3"
+          >
+            <i
+              class="fa-solid fa-pen-nib text-6xl lg:text-8xl pb-2 text-[#e3651d]"
+            ></i>
+            <h3 class="font-semibold text-3xl text-white">Design Web</h3>
+            <p>
+              Tampil beda dan menarik perhatian dengan desain website dan logo
+              yang profesional. Kami menawarkan layanan desain web yang kreatif
+              dan inovatif, serta desain logo yang unik dan representatif untuk
+              bisnis Anda.
+            </p>
+          </div>
+          <!-- Service Blog Writter -->
+          <div
+            class="web-dev-service flex flex-col items-center mb-20 w-[85%] lg:w-[60%] text-white text-center gap-y-3"
+          >
+            <i
+              class="fa-solid fa-pencil text-6xl lg:text-8xl pb-2 text-[#e3651d]"
+            ></i>
+            <h3 class="font-semibold text-3xl text-white">Blog Writer</h3>
+            <p>
+              Ingin memiliki blog atau website dengan konten yang menarik dan
+              informatif? Kami menawarkan jasa penulisan artikel dan konten blog
+              yang berkualitas tinggi.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a
+        href="/pages/skill.html"
+        class="absolute right-0 mx-8 border border-amber-600 rounded-lg py-2 px-4 text-amber-700"
+        >View Next <i class="fa-solid fa-square-caret-right"></i
+      ></a>
+    </section>
+    <script src="/main.js"></script>
+  </body>
+</html>
