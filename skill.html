@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Services</title>
+    <title>My Skill</title>
     <link rel="stylesheet" href="/dist/styles.css" />
     <link rel="stylesheet" href="/hamburgers.css" />
     <link
@@ -30,20 +30,20 @@
             class="absolute lg:flex top-[80px] grid py-6 md:py-0 -left-full w-full md:w-fit h-fit md:h-full lg:static gap-2 md:gap-10 font-semibold text-xl text-center items-center bg-white/5 backdrop-blur-sm md:bg-[#191919] text-gray-300 justify-center"
           >
             <li>
-              <a href="/pages/landingPage.html" class="hover:text-[#e3651d]">Home</a>
+              <a href="/landingPage.html" class="hover:text-[#e3651d]">Home</a>
+            </li>
+            <li>
+              <a href="/services.html" class="hover:text-[#e3651d]">Services</a>
             </li>
             <li>
               <a
-                href="/pages/about"
+                href="/skill.html"
                 class="text-black lg:text-[#e3651d] underline-offset-8 font-bold"
-                >Services</a
+                >Skill</a
               >
             </li>
             <li>
-              <a href="/pages/skill.html" class="hover:text-[#e3651d]">Skill</a>
-            </li>
-           <li>
-              <a href="/pages/about.html" class="hover:text-[#e3651d]">About</a>
+              <a href="/about.html" class="hover:text-[#e3651d]">About</a>
             </li>
             <li class="block lg:hidden">
               <a
@@ -74,61 +74,76 @@
         </div>
       </nav>
     </header>
-    <section class="py-7 lg:py-20 mx-auto h-full mb-8">
+
+    <!-- Sectiom -->
+    <section class="py-7 lg:py-20 mx-auto mb-8">
       <div class="container max-w-6xl mx-auto h-full">
-        <div class="flex flex-col items-center px-8">
+        <div class="flex flex-col items-center">
           <h1
             class="text-center font-bold text-4xl lg:text-5xl pt-6 pb-15 lg:pb-20 text-white"
           >
-            My Services
+            My Skill
           </h1>
-          <!-- Service Web Development -->
           <div
-            class="web-dev-service flex flex-col items-center mb-20 w-[85%] lg:w-[60%] text-white text-center gap-y-3"
+            class="container-progress flex flex-col w-full text-center gap-y-4 items-center px-8"
           >
-            <i
-              class="fa-solid fa-laptop text-6xl lg:text-8xl pb-2 text-[#e3651d]"
-            ></i>
-            <h3 class="font-semibold text-3xl">Web Develpment</h3>
-            <p class="text-sm">
-              Apakah Anda membutuhkan website yang cepat, aman, dan mudah
-              dikelola? Kami menawarkan layanan pembuatan website statis yang
-              ideal untuk sekolah, personal portfolio, atau company profile.
-            </p>
-          </div>
-          <!-- Service Web Design Web -->
-          <div
-            class="web-dev-service flex flex-col items-center mb-20 w-[85%] lg:w-[60%] text-white text-center gap-y-3"
-          >
-            <i
-              class="fa-solid fa-pen-nib text-6xl lg:text-8xl pb-2 text-[#e3651d]"
-            ></i>
-            <h3 class="font-semibold text-3xl text-white">Design Web</h3>
-            <p>
-              Tampil beda dan menarik perhatian dengan desain website dan logo
-              yang profesional. Kami menawarkan layanan desain web yang kreatif
-              dan inovatif, serta desain logo yang unik dan representatif untuk
-              bisnis Anda.
-            </p>
-          </div>
-          <!-- Service Blog Writter -->
-          <div
-            class="web-dev-service flex flex-col items-center mb-20 w-[85%] lg:w-[60%] text-white text-center gap-y-3"
-          >
-            <i
-              class="fa-solid fa-pencil text-6xl lg:text-8xl pb-2 text-[#e3651d]"
-            ></i>
-            <h3 class="font-semibold text-3xl text-white">Blog Writer</h3>
-            <p>
-              Ingin memiliki blog atau website dengan konten yang menarik dan
-              informatif? Kami menawarkan jasa penulisan artikel dan konten blog
-              yang berkualitas tinggi.
-            </p>
+            <!-- Progress HTML -->
+            <i class="fa-brands fa-html5 text-9xl text-[#E34F26]"></i>
+            <div class="mb-1 text-3xl font-semibold dark:text-white">HTML</div>
+            <div
+              class="w-full h-4 mb-4 bg-gray-200 rounded-full dark:bg-gray-700"
+            >
+              <div
+                class="h-4 bg-[#E34F26] rounded-full"
+                style="width: 90%"
+              ></div>
+            </div>
+            <!-- Progress CSS -->
+            <i class="fa-brands fa-css3-alt mt-10 text-9xl text-[#1572B6]"></i>
+            <div class="mb-1 text-3xl font-semibold dark:text-white">CSS</div>
+            <div
+              class="w-full h-4 mb-4 bg-gray-200 rounded-full dark:bg-gray-700"
+            >
+              <div
+                class="h-4 bg-[#1572B6] rounded-full"
+                style="width: 55%"
+              ></div>
+            </div>
+            <!-- Progress CSS Tailwind -->
+            <img
+              src="/images/Tailwind_CSS_Logo.svg.png"
+              alt=""
+              class="w-[150px] mt-10"
+            />
+            <div class="mb-1 text-3xl font-semibold dark:text-white">
+              CSS with Tailwind
+            </div>
+            <div
+              class="w-full h-4 mb-4 bg-gray-200 rounded-full dark:bg-gray-700"
+            >
+              <div
+                class="h-4 bg-[#06B6D4] rounded-full"
+                style="width: 70%"
+              ></div>
+            </div>
+            <!-- Progress Java Script -->
+            <i class="fa-brands fa-js mt-10 text-9xl text-[#F7DF1E]"></i>
+            <div class="mb-1 text-3xl font-semibold dark:text-white">
+              Java Script
+            </div>
+            <div
+              class="w-full h-4 mb-4 bg-gray-200 rounded-full dark:bg-gray-700"
+            >
+              <div
+                class="h-4 bg-[#F7DF1E] rounded-full"
+                style="width: 45%"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
       <a
-        href="/pages/skill.html"
+        href="/about.html"
         class="absolute right-0 mx-8 border border-amber-600 rounded-lg py-2 px-4 text-amber-700"
         >View Next <i class="fa-solid fa-square-caret-right"></i
       ></a>
