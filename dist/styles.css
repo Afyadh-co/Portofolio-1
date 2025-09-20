@@ -317,9 +317,6 @@
   .cursor-pointer {
     cursor: pointer;
   }
-  .scroll-px-60 {
-    scroll-padding-inline: calc(var(--spacing) * 60);
-  }
   .grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
@@ -422,6 +419,9 @@
   .p-1 {
     padding: calc(var(--spacing) * 1);
   }
+  .px-0 {
+    padding-inline: calc(var(--spacing) * 0);
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -431,20 +431,8 @@
   .px-8 {
     padding-inline: calc(var(--spacing) * 8);
   }
-  .px-16 {
-    padding-inline: calc(var(--spacing) * 16);
-  }
-  .px-32 {
-    padding-inline: calc(var(--spacing) * 32);
-  }
-  .px-36 {
-    padding-inline: calc(var(--spacing) * 36);
-  }
   .px-40 {
     padding-inline: calc(var(--spacing) * 40);
-  }
-  .px-60 {
-    padding-inline: calc(var(--spacing) * 60);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -472,9 +460,6 @@
   }
   .text-justify {
     text-align: justify;
-  }
-  .indent-\[3em\] {
-    text-indent: 3em;
   }
   .font-sans {
     font-family: var(--font-sans);
@@ -689,6 +674,11 @@
   .lg\:px-0 {
     @media (width >= 64rem) {
       padding-inline: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:px-40 {
+    @media (width >= 64rem) {
+      padding-inline: calc(var(--spacing) * 40);
     }
   }
   .lg\:py-0 {
